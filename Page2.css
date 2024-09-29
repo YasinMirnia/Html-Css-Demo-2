@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "caveat";
+  src: url("assets/fonts/Caveat/ttf/Caveat-Regular.ttf");
+  format: ("ttf");
+  src: url("assets/fonts/Caveat/woff/AnyConv.com__Caveat-Regular.woff");
+  format: ("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "caveat";
+  src: url("assets/fonts/Caveat/ttf/Caveat-Medium.ttf");
+  format: ("ttf");
+  src: url("assets/fonts/Caveat/woff/AnyConv.com__Caveat-Medium.woff");
+  format: ("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "caveat";
+  src: url("assets/fonts/Caveat/ttf/Caveat-Bold.ttf");
+  format: ("ttf");
+  src: url("assets/fonts/Caveat/woff/AnyConv.com__Caveat-Bold.woff");
+  format: ("woff");
+  font-weight: 700;
+}
+
+* {
+  font-family: "caveat", cursive;
+}
