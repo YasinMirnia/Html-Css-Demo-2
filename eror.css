@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "opensans";
+  src: url("assets/fonts/OpenSans/ttf/OpenSans-Bold.ttf");
+  format: ("ttf");
+}
+
+body {
+  font-family: "opensans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 50px;
+}
