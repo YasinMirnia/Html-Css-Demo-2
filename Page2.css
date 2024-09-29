@@ -28,3 +28,48 @@
 * {
   font-family: "caveat", cursive;
 }
+
+body {
+  width: 700px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
+  line-height: 1.8;
+  margin: 32px 0px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  background-color: #21fef1;
+  z-index: -99;
+  height: 18px;
+  width: 100%;
+}
+
+a:hover {
+  color: red;
+  text-decoration: dashed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
